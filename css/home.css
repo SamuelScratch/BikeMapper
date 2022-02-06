@@ -1,0 +1,67 @@
+body{
+    background-color: #009688;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Cairo';
+}
+
+header {
+    background-color: #00796B;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: white; 
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header p {
+    text-align: justify;
+}
+#bandeau{
+    opacity: 0.85;
+    overflow: hidden;
+    background-image: url(../img/bckg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+}
+#access, #presentation{
+    display: flex;
+    justify-content: center;   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+ }
+
+ div#presentation p{
+    margin-left: 1em;
+    margin-right: 1em;
+ }
+
+#foot{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+button {
+    -webkit-box-shadow: -15px 15px 12px -10px rgb(0 0 0 / 52%);
+    font-size: 68px !important;
+    margin-top: 0.3em;
+    background-color: #B2DFDB; 
+    border-radius: 20px;
+  }
+@media only screen and (min-width: 800px){
+    #presentation{   
+        width: 800px;
+        font-size: 1.333em;
+    }
+}
